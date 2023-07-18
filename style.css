@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: #ffffff;
+}
+section {
+  margin: 40px 0;
+  padding: 16px;
+}
+section.landing-screen{
+  padding-top: 0;
+}
+.logo-img {
+  height: auto;
+  width: 128px;
+}
+
+.nav-link {
+  padding-right: 20px !important;
+}
+
+.nav-link:hover {
+  color: rgb(160, 163, 163) !important;
+}
+
+.dropdown-item {
+  padding: 12px;
+  color: rgb(125, 128, 128);
+  border-left: 3px solid rgb(255, 255, 255);
+
+}
+
+.dropdown-item:hover {
+  background-color: rgb(225, 242, 247) !important;
+  border-left: 3px solid rgb(164, 222, 240);
+}
+.btn-start{
+ background-color: white;
+ font-weight: 300;
+}
+.btn-start:hover{
+  background-color: white;
+ }
+
+.text-lg{
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+span{
+  color: #FFA326;
+
+}
+.text-md{
+ 
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #212529;
+}
+.text-sm{
+ 
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #212529;
+}
+.text-muted{
+ 
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6c757d!important;
+}
+.disabled{
+  display: none;
+}
+.custom-btn{
+ background-color: #30881c;
+ color: rgb(255, 255, 255);
+ border-radius: 0.25rem;
+}
+.custom-btn:hover{
+ background-color: #30881c;
+ color: rgb(255, 255, 255);
+}
+
+select{
+  border-radius: 0 !important;
+}
+.slider-img,.feature-img,.shop-img{
+  width: 100%;
+}
+
+.sec-bg{
+  background-color: #fafbfb;;
+}
+.text-bg{
+  background-color: #e5f9f8;
+}
+.card {
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 0.25rem;
+}
+.card-shadow{
+  box-shadow: 0 0 5px #00000024;
+}
+.card-width
+{
+  width: 312px;
+}
+.card-title{
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1;
+}
+.card-text{
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+.enable-btn {
+  border-radius: 0.25rem;
+  padding: 0.6rem 2.2rem;
+  margin: 10px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+.green-btn{
+  background-color: #ffffff;
+  border: 1px solid #00897b;
+  color: #00897b;
+}
+
+.green-btn:hover {
+  background-color: #00897b;
+  color: white;
+  text-decoration: none;
+
+}
+.blue-btn{
+  background-color: #ffffff;
+  border: 1px solid  #003a72;
+  color:  #003a72;
+}
+
+.blue-btn:hover {
+  background-color:  #003a72;
+  color: white;
+  text-decoration: none;
+
+}
+.shop-item{
+  padding-left: 0;
+  list-style: none;
+}
+.shop-card{
+  padding: 0.5rem !important;
+  border: 1px solid rgba(0,0,0,.125);
+
+}
+
+.logo {
+  border-radius: 5px;
+  background-color: #fafbfb;
+  /* background-color: rgb(218, 153, 153); */
+  height: 160px;
+  width: 160px;
+
+}
+.customer-logo {
+  height: 134px;
+  width: 134px;
+}
+.card-img-top{
+  height: 60px;
+  width: 60px;
+}
+.support-card-width{
+  width: 261px;
+}
+.green-card{
+  background: #4caf50;
+}
+.blue-card{
+  background-color: #3f51b5;
+}
+.font-weight-400{
+  font-weight: 400;
+}
+.footer-text{
+  color: #888888;
+  font-size: 80%;
+  font-weight: 400;
+  padding-bottom: 5%;
+  cursor: pointer;
+}
+.footer-text:hover{
+  color:  #f8f9fa;
+}
+.footer-text-2{
+  font-size: 80%;
+    color: #4c4c4c;
+}
+.social-icon, .copyright{
+  color: #6c757d!important;
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 768px) {
+  section{
+    margin: 20px 0;
+  }
+  .text-lg{
+    font-size: 1.6rem;
+  }
+  .text-md{
+    font-size: 1.1rem;   
+  }
+  .text-sm{ 
+    font-size: 1rem;
+  }
+  .custom-img,.shop-img,.card-width{
+    width: 100%;
+  }
+
+}
